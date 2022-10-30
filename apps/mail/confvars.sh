@@ -13,7 +13,7 @@ MOZ_APP_STATIC_INI=1
 MOZ_APP_VERSION=`$PYTHON ${_topsrcdir}/build/version2k.py --version ${_topsrcdir}/apps/mail/config/version.txt`
 MOZ_APP_VERSION_DISPLAY=$MOZ_APP_VERSION
 MOZ_BRANDING_DIRECTORY=mail/branding
-MOZ_OFFICIAL_BRANDING_DIRECTORY=other-licenses/branding/interlink/release
+MOZ_OFFICIAL_BRANDING_DIRECTORY=other-licenses/branding/interlink
 MOZ_PROFILE_MIGRATOR=1
 
 # Platform Conditional code for application
@@ -31,6 +31,10 @@ THUNDERBIRD_VERSION=$MOZ_APP_VERSION
 # Platform build options
 MOZ_PLACES=1
 MOZ_SEPARATE_MANIFEST_FOR_THEME_OVERRIDES=1
+MOZ_SERVICES_SYNC=
+MOZ_JETPACK=
+MOZ_DEVTOOLS_SERVER=
+MOZ_DEVTOOLS=
 MOZ_GAMEPAD=
 MOZ_NECKO_WIFI=
 MOZ_AV1=

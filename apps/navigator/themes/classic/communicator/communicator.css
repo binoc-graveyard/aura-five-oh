@@ -16,15 +16,7 @@
 
 /* ::::: toolbar-primary ::::: */
 
-.toolbar-primary {
-  -moz-binding: url("chrome://communicator/content/bindings/toolbar.xml#grippytoolbar-primary");
-}
-
 /* ::::: autocomplete ::::: */
-
-.autocomplete-history-popup {
-  max-height: 25em;
-}
 
 textbox[autocompletesearch="history file"] .autocomplete-treebody::-moz-tree-image(treecolAutoCompleteValue) {
   width: 16px;
